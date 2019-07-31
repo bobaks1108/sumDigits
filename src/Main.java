@@ -1,12 +1,5 @@
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println(sumDigitsUsingWhileLoop(1233)); 
-        System.out.println(sumDigitsUsingWhileLoop(212128979)); 
-        System.out.println(sumDigitsUsingRecursion(1233)); 
-        System.out.println(sumDigitsUsingRecursion(212128979))
-    }
-
     public static int sumDigitsUsingWhileLoop(int number) {
         if (number < 10 ) {
             return number;
@@ -29,4 +22,11 @@ public class Main {
          digit = number % 10; 
          return digit + sumDigitsUsingRecursion(number /= 10);
      }
+    
+     public static void main(String[] args) {
+        System.out.println(sumDigitsUsingWhileLoop(1233)); 
+        System.out.println(sumDigitsUsingWhileLoop(212128979)); 
+        System.out.println(sumDigitsUsingRecursion(1233)); 
+        System.out.println(sumDigitsUsingRecursion(212128979))
+    }
 }
