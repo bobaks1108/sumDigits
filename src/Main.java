@@ -27,6 +27,6 @@ public class Main {
         System.out.println(sumDigitsUsingWhileLoop(1233)); 
         System.out.println(sumDigitsUsingWhileLoop(212128979)); 
         System.out.println(sumDigitsUsingRecursion(1233)); 
-        System.out.println(sumDigitsUsingRecursion(212128979))
+        System.out.println(sumDigitsUsingRecursion(212128979));
     }
 }
